@@ -50,9 +50,4 @@ function sortearAmigo() {
     elementoResultado.innerHTML = `<p>🎉 Tu amigo secreto es: <strong>${amigoSecreto}</strong> 🎉</p>`;
 }
 
-function reiniciarJuego() {
-    amigos = [];  // Vaciar la lista de amigos
-    actualizarListaAmigos(); // Limpiar la lista en pantalla
-    document.getElementById('resultado').innerHTML = ''; // Borrar el resultado
-    document.getElementById('amigo').value = ''; // Limpiar el campo de entrada
-}
+
